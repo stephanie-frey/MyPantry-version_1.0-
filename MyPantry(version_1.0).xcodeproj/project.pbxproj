@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40CA4681F8465F3EC12C1D1F /* libPods-MyPantry(version_1.0)UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C7D2BEAED8BA5B520F72A1 /* libPods-MyPantry(version_1.0)UITests.a */; };
+		9208B11B891709B56E4CE558 /* libPods-MyPantry(version_1.0).a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8086B06428E77F0967AC7EB8 /* libPods-MyPantry(version_1.0).a */; };
+		B432C346947F5D67CD243D67 /* libPods-MyPantry(version_1.0)Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D8239477EC16B9342BA1B5 /* libPods-MyPantry(version_1.0)Tests.a */; };
 		F73B5742221C7E1600D147BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F73B5741221C7E1600D147BE /* AppDelegate.m */; };
 		F73B5745221C7E1600D147BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73B5744221C7E1600D147BE /* ViewController.m */; };
 		F73B5748221C7E1600D147BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73B5746221C7E1600D147BE /* Main.storyboard */; };
@@ -15,6 +18,8 @@
 		F73B5750221C7E1800D147BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F73B574F221C7E1800D147BE /* main.m */; };
 		F73B575A221C7E1800D147BE /* MyPantry_version_1_0_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F73B5759221C7E1800D147BE /* MyPantry_version_1_0_Tests.m */; };
 		F73B5765221C7E1800D147BE /* MyPantry_version_1_0_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F73B5764221C7E1800D147BE /* MyPantry_version_1_0_UITests.m */; };
+		F73B58C5225E101300D147BE /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73B58C4225E101300D147BE /* TableViewController.m */; };
+		F73B58C8225E102600D147BE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73B58C7225E102600D147BE /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		148A75C2AF5A74AAE32CC76F /* Pods-MyPantry(version_1.0)UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPantry(version_1.0)UITests.debug.xcconfig"; path = "Target Support Files/Pods-MyPantry(version_1.0)UITests/Pods-MyPantry(version_1.0)UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		26D8239477EC16B9342BA1B5 /* libPods-MyPantry(version_1.0)Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyPantry(version_1.0)Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BC7F733750A173E50632D0A /* Pods-MyPantry(version_1.0)Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPantry(version_1.0)Tests.release.xcconfig"; path = "Target Support Files/Pods-MyPantry(version_1.0)Tests/Pods-MyPantry(version_1.0)Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2D44F8ACD3A16BEBA7EE71C4 /* Pods-MyPantry(version_1.0)Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPantry(version_1.0)Tests.debug.xcconfig"; path = "Target Support Files/Pods-MyPantry(version_1.0)Tests/Pods-MyPantry(version_1.0)Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		34A422DF10838A06ECFC7044 /* Pods-MyPantry(version_1.0).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPantry(version_1.0).debug.xcconfig"; path = "Target Support Files/Pods-MyPantry(version_1.0)/Pods-MyPantry(version_1.0).debug.xcconfig"; sourceTree = "<group>"; };
+		4A31A8EB6A9F326901EA80FC /* Pods-MyPantry(version_1.0)UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPantry(version_1.0)UITests.release.xcconfig"; path = "Target Support Files/Pods-MyPantry(version_1.0)UITests/Pods-MyPantry(version_1.0)UITests.release.xcconfig"; sourceTree = "<group>"; };
+		79C7D2BEAED8BA5B520F72A1 /* libPods-MyPantry(version_1.0)UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyPantry(version_1.0)UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8086B06428E77F0967AC7EB8 /* libPods-MyPantry(version_1.0).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyPantry(version_1.0).a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FD879414C2B2A24D8807E1E /* Pods-MyPantry(version_1.0).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPantry(version_1.0).release.xcconfig"; path = "Target Support Files/Pods-MyPantry(version_1.0)/Pods-MyPantry(version_1.0).release.xcconfig"; sourceTree = "<group>"; };
 		F73B573D221C7E1600D147BE /* MyPantry(version_1.0).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyPantry(version_1.0).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73B5740221C7E1600D147BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F73B5741221C7E1600D147BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +65,10 @@
 		F73B5760221C7E1800D147BE /* MyPantry(version_1.0)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyPantry(version_1.0)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73B5764221C7E1800D147BE /* MyPantry_version_1_0_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPantry_version_1_0_UITests.m; sourceTree = "<group>"; };
 		F73B5766221C7E1800D147BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F73B58C3225E101300D147BE /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		F73B58C4225E101300D147BE /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		F73B58C6225E102600D147BE /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F73B58C7225E102600D147BE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9208B11B891709B56E4CE558 /* libPods-MyPantry(version_1.0).a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B432C346947F5D67CD243D67 /* libPods-MyPantry(version_1.0)Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40CA4681F8465F3EC12C1D1F /* libPods-MyPantry(version_1.0)UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F73F8FD11C1E3DBF64420C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34A422DF10838A06ECFC7044 /* Pods-MyPantry(version_1.0).debug.xcconfig */,
+				8FD879414C2B2A24D8807E1E /* Pods-MyPantry(version_1.0).release.xcconfig */,
+				2D44F8ACD3A16BEBA7EE71C4 /* Pods-MyPantry(version_1.0)Tests.debug.xcconfig */,
+				2BC7F733750A173E50632D0A /* Pods-MyPantry(version_1.0)Tests.release.xcconfig */,
+				148A75C2AF5A74AAE32CC76F /* Pods-MyPantry(version_1.0)UITests.debug.xcconfig */,
+				4A31A8EB6A9F326901EA80FC /* Pods-MyPantry(version_1.0)UITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2D8283CA6F5A757498E0CD1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8086B06428E77F0967AC7EB8 /* libPods-MyPantry(version_1.0).a */,
+				26D8239477EC16B9342BA1B5 /* libPods-MyPantry(version_1.0)Tests.a */,
+				79C7D2BEAED8BA5B520F72A1 /* libPods-MyPantry(version_1.0)UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F73B5734221C7E1600D147BE = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +129,8 @@
 				F73B5758221C7E1800D147BE /* MyPantry(version_1.0)Tests */,
 				F73B5763221C7E1800D147BE /* MyPantry(version_1.0)UITests */,
 				F73B573E221C7E1600D147BE /* Products */,
+				1F73F8FD11C1E3DBF64420C0 /* Pods */,
+				2D8283CA6F5A757498E0CD1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +152,10 @@
 				F73B5743221C7E1600D147BE /* ViewController.h */,
 				F73B5744221C7E1600D147BE /* ViewController.m */,
 				F73B5746221C7E1600D147BE /* Main.storyboard */,
+				F73B58C3225E101300D147BE /* TableViewController.h */,
+				F73B58C4225E101300D147BE /* TableViewController.m */,
+				F73B58C6225E102600D147BE /* SecondViewController.h */,
+				F73B58C7225E102600D147BE /* SecondViewController.m */,
 				F73B5749221C7E1800D147BE /* Assets.xcassets */,
 				F73B574B221C7E1800D147BE /* LaunchScreen.storyboard */,
 				F73B574E221C7E1800D147BE /* Info.plist */,
@@ -139,6 +189,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F73B5769221C7E1800D147BE /* Build configuration list for PBXNativeTarget "MyPantry(version_1.0)" */;
 			buildPhases = (
+				03ABA915E99EAF662D4376AA /* [CP] Check Pods Manifest.lock */,
 				F73B5739221C7E1600D147BE /* Sources */,
 				F73B573A221C7E1600D147BE /* Frameworks */,
 				F73B573B221C7E1600D147BE /* Resources */,
@@ -156,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F73B576C221C7E1800D147BE /* Build configuration list for PBXNativeTarget "MyPantry(version_1.0)Tests" */;
 			buildPhases = (
+				F749D76A9BB5000CD13FD0E3 /* [CP] Check Pods Manifest.lock */,
 				F73B5751221C7E1800D147BE /* Sources */,
 				F73B5752221C7E1800D147BE /* Frameworks */,
 				F73B5753221C7E1800D147BE /* Resources */,
@@ -174,6 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F73B576F221C7E1800D147BE /* Build configuration list for PBXNativeTarget "MyPantry(version_1.0)UITests" */;
 			buildPhases = (
+				C1498FA9A00F7B405EEA5F0D /* [CP] Check Pods Manifest.lock */,
 				F73B575C221C7E1800D147BE /* Sources */,
 				F73B575D221C7E1800D147BE /* Frameworks */,
 				F73B575E221C7E1800D147BE /* Resources */,
@@ -257,14 +310,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03ABA915E99EAF662D4376AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyPantry(version_1.0)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1498FA9A00F7B405EEA5F0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyPantry(version_1.0)UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F749D76A9BB5000CD13FD0E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyPantry(version_1.0)Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F73B5739221C7E1600D147BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F73B58C8225E102600D147BE /* SecondViewController.m in Sources */,
 				F73B5745221C7E1600D147BE /* ViewController.m in Sources */,
 				F73B5750221C7E1800D147BE /* main.m in Sources */,
 				F73B5742221C7E1600D147BE /* AppDelegate.m in Sources */,
+				F73B58C5225E101300D147BE /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,9 +557,12 @@
 		};
 		F73B576A221C7E1800D147BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A422DF10838A06ECFC7044 /* Pods-MyPantry(version_1.0).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				INFOPLIST_FILE = "MyPantry(version_1.0)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +576,12 @@
 		};
 		F73B576B221C7E1800D147BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FD879414C2B2A24D8807E1E /* Pods-MyPantry(version_1.0).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				INFOPLIST_FILE = "MyPantry(version_1.0)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -465,6 +595,7 @@
 		};
 		F73B576D221C7E1800D147BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D44F8ACD3A16BEBA7EE71C4 /* Pods-MyPantry(version_1.0)Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +614,7 @@
 		};
 		F73B576E221C7E1800D147BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BC7F733750A173E50632D0A /* Pods-MyPantry(version_1.0)Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +633,7 @@
 		};
 		F73B5770221C7E1800D147BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 148A75C2AF5A74AAE32CC76F /* Pods-MyPantry(version_1.0)UITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "MyPantry(version_1.0)UITests/Info.plist";
@@ -518,6 +651,7 @@
 		};
 		F73B5771221C7E1800D147BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A31A8EB6A9F326901EA80FC /* Pods-MyPantry(version_1.0)UITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "MyPantry(version_1.0)UITests/Info.plist";

@@ -1,0 +1,856 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0263735FE71E433D59308FBD5800157B /* Pods-MyPantry(version_1.0)-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B4F126BC5D9A477040135F66DC789A /* Pods-MyPantry(version_1.0)-dummy.m */; };
+		05D85B6FDD836E6F44DAD76C77B818AD /* UNIHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = BE97EF57A68A54AA6EE3C39E527C3F09 /* UNIHTTPResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		08A41EF9052E2CF8990F4A7D911DEB66 /* UNIUrlConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3DD8EBE4909EA80E890EBDAC583B5F /* UNIUrlConnection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0B1CD8523E75BB098B3A0B19879CE0C6 /* UNISimpleRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 449187A180F3E7A630ED6BBA5003FA75 /* UNISimpleRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		13D5C0126EB2224CC946D5E0373CB7CB /* UNISimpleRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 77626892055C2EE28A855D72C3BB23DC /* UNISimpleRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1C6BE6E542A285F73365A94FACAECA02 /* UNIHTTPBinaryResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 5239D7600AA44150F017EBE8F99B37E7 /* UNIHTTPBinaryResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3450A75EF5F35FBCDD296F4C9E1BCD50 /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = BE3403F047270DB0B07FB4871ADD9832 /* Base64.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3A9B1D5148F38B278CEBDAD8DD0823DF /* Pods-MyPantry(version_1.0)Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2C2739CE69EBE95895FFF280F6A260 /* Pods-MyPantry(version_1.0)Tests-dummy.m */; };
+		3DF11FEC25096D8535D1142BC4E9C2E6 /* UNIHTTPStringResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = C4FAFD7B903466375B81E811B60AB8FA /* UNIHTTPStringResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		42F8DF119561EDBE1BC6F2D26AEB5D1B /* UNIHTTPClientHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C9380CE76E06957C40C5D54518E5F6 /* UNIHTTPClientHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		562E3B749D73396EDEAE95251DF0D057 /* UNIHTTPStringResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CECBC85AA07AD2F3C6137BDF207EE /* UNIHTTPStringResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5A0ABC9498EA93D7A451B22171EC8276 /* UNIRest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC47074CF11711517EE33E7FEF70FFD /* UNIRest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		64F28C550A69731E32D421E8EFD24DE9 /* UNIBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1402FE05C2B1620C23DB7C1432DEA15F /* UNIBaseRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6CFE1847ADAA42F862D4F2E9AE3A8BFB /* UNIBodyRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D2D679D0CEAAA4BF17F398CCC1D5907 /* UNIBodyRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6DFFA5FCBE4933F3DECF7CBF33DF2B99 /* UNIHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C7AC074D880C374487B29D1A3EACE6AC /* UNIHTTPRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		775D8C750CC025DD9BEDCE48760E8A01 /* Unirest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A467F6875865BD34D8FE9E34E94EF44E /* Unirest-dummy.m */; };
+		8CE791F22801D5805303102E11BC852E /* UNIHTTPBinaryResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B83EF1A1635D6F6CF109A2012FABD6D /* UNIHTTPBinaryResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9BA1662927FF2A2EEECE44C99738B6BE /* UNIJsonNode.h in Headers */ = {isa = PBXBuildFile; fileRef = C10A671FA80F52391D3711ACF7C2C546 /* UNIJsonNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B1B123822EB4CD7E00034A0B63D2666F /* UNIHTTPJsonResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E40CF4345F069C4E6D38435D41FC5D7 /* UNIHTTPJsonResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B61465BC01835681D14775081C300F1E /* Pods-MyPantry(version_1.0)UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB822A068BA2D88D37971EE6038883BC /* Pods-MyPantry(version_1.0)UITests-dummy.m */; };
+		C0BA1198B3A723DAB70A2A269CF6D642 /* UNIRest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C5B2CFA1C54C67D3BBDD683FA6771BE /* UNIRest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C300BCE6998115E58A42D5EC986DFA0B /* UNIJsonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D9024A2A864804DAD47FED2F551B8170 /* UNIJsonNode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C4A82CA3FAAF7D206BD699E2A4000F64 /* UNIBodyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E04855668ED67CFEA61A1D8A423E0801 /* UNIBodyRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C4B7DE34143B5D326E9C12C57833A44F /* UNIBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4932DE2D1C320BFB293C44ADF6D31C /* UNIBaseRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C6B64D63D07B9285F69419E772EFFCD3 /* UNIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDC3F789489A79AC74F43FBA8427E10 /* UNIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D2B086875098E91DCD3940D72E416453 /* UNIHTTPRequestWithBody.h in Headers */ = {isa = PBXBuildFile; fileRef = AC86D757A3523EC26BCA22A0E07F7A3F /* UNIHTTPRequestWithBody.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D361C97929279A6222E7B00CB9A37382 /* UNIUrlConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = D1F8574967F25058F36E33C52012AD7D /* UNIUrlConnection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D82BA170D3856DADFF16511136AE825B /* UNIHTTPClientHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CEF0BA3F25B6D4DDB1E867E1AB57A68 /* UNIHTTPClientHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DAB67B23738AAF5D860F1D84C6859EA4 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = C895FEBF10E7266513A246F41E485665 /* Base64.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E937D5FB0098853266AD72295C881EA8 /* UNIHTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 58050283C6E7A39E3A8D98539CEC6689 /* UNIHTTPResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F0B45D136536E098513E82692321BB93 /* UNIHTTPJsonResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = E62AABF25C58BC1406F2C645892DF8A0 /* UNIHTTPJsonResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FCB6E61798093C6A2D896115C46467A7 /* UNIHTTPRequestWithBody.m in Sources */ = {isa = PBXBuildFile; fileRef = EADEFEDD0F63E04C3FA9C9398FFE096B /* UNIHTTPRequestWithBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21719254111914CD69A5FB51796E8952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91F8B621780C36AE47916CA0112F90CB;
+			remoteInfo = Unirest;
+		};
+		51F0846051766AAC23BDD24E460EE329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 199FA053BFF55E866E68B835FA188117;
+			remoteInfo = "Pods-MyPantry(version_1.0)";
+		};
+		B79B722569ECC868669A64288E6C6173 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 199FA053BFF55E866E68B835FA188117;
+			remoteInfo = "Pods-MyPantry(version_1.0)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D6063D34298606AD34DD8526C653D2 /* Pods-MyPantry(version_1.0)Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyPantry(version_1.0)Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C5B2CFA1C54C67D3BBDD683FA6771BE /* UNIRest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIRest.h; path = Unirest/UNIRest.h; sourceTree = "<group>"; };
+		1402FE05C2B1620C23DB7C1432DEA15F /* UNIBaseRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIBaseRequest.h; path = Unirest/HttpRequest/UNIBaseRequest.h; sourceTree = "<group>"; };
+		1428DE5B64D2B50F86AF0B162099F55A /* Pods-MyPantry(version_1.0)UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyPantry(version_1.0)UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D2D679D0CEAAA4BF17F398CCC1D5907 /* UNIBodyRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIBodyRequest.h; path = Unirest/HttpRequest/UNIBodyRequest.h; sourceTree = "<group>"; };
+		1EC47074CF11711517EE33E7FEF70FFD /* UNIRest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIRest.m; path = Unirest/UNIRest.m; sourceTree = "<group>"; };
+		1F6DE4EA2CBFC0ED06995941680C3ECA /* Pods-MyPantry(version_1.0).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyPantry(version_1.0).debug.xcconfig"; sourceTree = "<group>"; };
+		25B4F126BC5D9A477040135F66DC789A /* Pods-MyPantry(version_1.0)-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyPantry(version_1.0)-dummy.m"; sourceTree = "<group>"; };
+		2DBA8CAA5D05534B95F151EAA87C53E9 /* Pods-MyPantry(version_1.0)-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyPantry(version_1.0)-acknowledgements.markdown"; sourceTree = "<group>"; };
+		434141D342B861DC1BC6FA814B708458 /* Pods-MyPantry(version_1.0)UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyPantry(version_1.0)UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		449187A180F3E7A630ED6BBA5003FA75 /* UNISimpleRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNISimpleRequest.m; path = Unirest/HttpRequest/UNISimpleRequest.m; sourceTree = "<group>"; };
+		5239D7600AA44150F017EBE8F99B37E7 /* UNIHTTPBinaryResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPBinaryResponse.h; path = Unirest/HttpResponse/UNIHTTPBinaryResponse.h; sourceTree = "<group>"; };
+		58050283C6E7A39E3A8D98539CEC6689 /* UNIHTTPResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPResponse.h; path = Unirest/HttpResponse/UNIHTTPResponse.h; sourceTree = "<group>"; };
+		5B83EF1A1635D6F6CF109A2012FABD6D /* UNIHTTPBinaryResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPBinaryResponse.m; path = Unirest/HttpResponse/UNIHTTPBinaryResponse.m; sourceTree = "<group>"; };
+		5CEF0BA3F25B6D4DDB1E867E1AB57A68 /* UNIHTTPClientHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPClientHelper.m; path = Unirest/UNIHTTPClientHelper.m; sourceTree = "<group>"; };
+		7001823CC9EF98B96A2BFDA0C06EE006 /* Pods-MyPantry(version_1.0).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyPantry(version_1.0).release.xcconfig"; sourceTree = "<group>"; };
+		72D79EC48E5246C8D3087E33EE7BD995 /* Pods-MyPantry(version_1.0)UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyPantry(version_1.0)UITests.release.xcconfig"; sourceTree = "<group>"; };
+		77626892055C2EE28A855D72C3BB23DC /* UNISimpleRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNISimpleRequest.h; path = Unirest/HttpRequest/UNISimpleRequest.h; sourceTree = "<group>"; };
+		79C12E396A513F07E127BDCFFF2AA4C0 /* Pods-MyPantry(version_1.0)-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyPantry(version_1.0)-acknowledgements.plist"; sourceTree = "<group>"; };
+		7CB65A7512CFC291B14D6FAD5691211F /* Pods-MyPantry(version_1.0)Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyPantry(version_1.0)Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		87A19A9F8D9311EC5A078690C94A2CE6 /* libPods-MyPantry(version_1.0)Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyPantry(version_1.0)Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C9CECBC85AA07AD2F3C6137BDF207EE /* UNIHTTPStringResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPStringResponse.m; path = Unirest/HttpResponse/UNIHTTPStringResponse.m; sourceTree = "<group>"; };
+		8E40CF4345F069C4E6D38435D41FC5D7 /* UNIHTTPJsonResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPJsonResponse.m; path = Unirest/HttpResponse/UNIHTTPJsonResponse.m; sourceTree = "<group>"; };
+		95E6418CAF6945D7494DB7B0D769A795 /* Pods-MyPantry(version_1.0)UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyPantry(version_1.0)UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A467F6875865BD34D8FE9E34E94EF44E /* Unirest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Unirest-dummy.m"; sourceTree = "<group>"; };
+		AC719A5E1CAD4AA60B75237E09BDCC42 /* Pods-MyPantry(version_1.0)Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyPantry(version_1.0)Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AC86D757A3523EC26BCA22A0E07F7A3F /* UNIHTTPRequestWithBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPRequestWithBody.h; path = Unirest/UNIHTTPRequestWithBody.h; sourceTree = "<group>"; };
+		AE4932DE2D1C320BFB293C44ADF6D31C /* UNIBaseRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIBaseRequest.m; path = Unirest/HttpRequest/UNIBaseRequest.m; sourceTree = "<group>"; };
+		AEDC3F789489A79AC74F43FBA8427E10 /* UNIHTTPRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPRequest.m; path = Unirest/UNIHTTPRequest.m; sourceTree = "<group>"; };
+		B6C9380CE76E06957C40C5D54518E5F6 /* UNIHTTPClientHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPClientHelper.h; path = Unirest/UNIHTTPClientHelper.h; sourceTree = "<group>"; };
+		BA6FCE932336BCC5BE210E914FA4EDF4 /* libUnirest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUnirest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2C2739CE69EBE95895FFF280F6A260 /* Pods-MyPantry(version_1.0)Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyPantry(version_1.0)Tests-dummy.m"; sourceTree = "<group>"; };
+		BE3403F047270DB0B07FB4871ADD9832 /* Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Base64.h; path = Unirest/Base64.h; sourceTree = "<group>"; };
+		BE97EF57A68A54AA6EE3C39E527C3F09 /* UNIHTTPResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPResponse.m; path = Unirest/HttpResponse/UNIHTTPResponse.m; sourceTree = "<group>"; };
+		BF3DD8EBE4909EA80E890EBDAC583B5F /* UNIUrlConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIUrlConnection.m; path = Unirest/UNIUrlConnection.m; sourceTree = "<group>"; };
+		C10A671FA80F52391D3711ACF7C2C546 /* UNIJsonNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIJsonNode.h; path = Unirest/HttpResponse/UNIJsonNode.h; sourceTree = "<group>"; };
+		C30B60F145E165A7DD9C30B3CDC33827 /* Unirest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Unirest.xcconfig; sourceTree = "<group>"; };
+		C4FAFD7B903466375B81E811B60AB8FA /* UNIHTTPStringResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPStringResponse.h; path = Unirest/HttpResponse/UNIHTTPStringResponse.h; sourceTree = "<group>"; };
+		C7AC074D880C374487B29D1A3EACE6AC /* UNIHTTPRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPRequest.h; path = Unirest/UNIHTTPRequest.h; sourceTree = "<group>"; };
+		C895FEBF10E7266513A246F41E485665 /* Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Base64.m; path = Unirest/Base64.m; sourceTree = "<group>"; };
+		D1F8574967F25058F36E33C52012AD7D /* UNIUrlConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIUrlConnection.h; path = Unirest/UNIUrlConnection.h; sourceTree = "<group>"; };
+		D9024A2A864804DAD47FED2F551B8170 /* UNIJsonNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIJsonNode.m; path = Unirest/HttpResponse/UNIJsonNode.m; sourceTree = "<group>"; };
+		DAD5D7DB2152C2FB0FD1F0D76BA192BE /* libPods-MyPantry(version_1.0)UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyPantry(version_1.0)UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E04855668ED67CFEA61A1D8A423E0801 /* UNIBodyRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIBodyRequest.m; path = Unirest/HttpRequest/UNIBodyRequest.m; sourceTree = "<group>"; };
+		E62AABF25C58BC1406F2C645892DF8A0 /* UNIHTTPJsonResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPJsonResponse.h; path = Unirest/HttpResponse/UNIHTTPJsonResponse.h; sourceTree = "<group>"; };
+		EADEFEDD0F63E04C3FA9C9398FFE096B /* UNIHTTPRequestWithBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPRequestWithBody.m; path = Unirest/UNIHTTPRequestWithBody.m; sourceTree = "<group>"; };
+		F213891B2089D6803A00370D58FA0F57 /* Pods-MyPantry(version_1.0)Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyPantry(version_1.0)Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4C147F7FD3875D6FA0C46228C36AB3F /* Unirest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Unirest-prefix.pch"; sourceTree = "<group>"; };
+		FB822A068BA2D88D37971EE6038883BC /* Pods-MyPantry(version_1.0)UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyPantry(version_1.0)UITests-dummy.m"; sourceTree = "<group>"; };
+		FF6AB4865019CA8D45451D33B3683A58 /* libPods-MyPantry(version_1.0).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyPantry(version_1.0).a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26CEE7CE181F0599962B78CE9BE533A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A522AD4F2B12AEC66E2A61DCE766F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E87B44B0CFA9430DC328FA70A2CA61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE699986678CF8758D121D480B7795E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51360643747859A88BA3074E20D483A6 /* Pods-MyPantry(version_1.0) */ = {
+			isa = PBXGroup;
+			children = (
+				2DBA8CAA5D05534B95F151EAA87C53E9 /* Pods-MyPantry(version_1.0)-acknowledgements.markdown */,
+				79C12E396A513F07E127BDCFFF2AA4C0 /* Pods-MyPantry(version_1.0)-acknowledgements.plist */,
+				25B4F126BC5D9A477040135F66DC789A /* Pods-MyPantry(version_1.0)-dummy.m */,
+				1F6DE4EA2CBFC0ED06995941680C3ECA /* Pods-MyPantry(version_1.0).debug.xcconfig */,
+				7001823CC9EF98B96A2BFDA0C06EE006 /* Pods-MyPantry(version_1.0).release.xcconfig */,
+			);
+			name = "Pods-MyPantry(version_1.0)";
+			path = "Target Support Files/Pods-MyPantry(version_1.0)";
+			sourceTree = "<group>";
+		};
+		5B17F28F6B6E84853830CD8E412A86F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF6AB4865019CA8D45451D33B3683A58 /* libPods-MyPantry(version_1.0).a */,
+				87A19A9F8D9311EC5A078690C94A2CE6 /* libPods-MyPantry(version_1.0)Tests.a */,
+				DAD5D7DB2152C2FB0FD1F0D76BA192BE /* libPods-MyPantry(version_1.0)UITests.a */,
+				BA6FCE932336BCC5BE210E914FA4EDF4 /* libUnirest.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64963068BAC232E6F33D7742DA822786 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C30B60F145E165A7DD9C30B3CDC33827 /* Unirest.xcconfig */,
+				A467F6875865BD34D8FE9E34E94EF44E /* Unirest-dummy.m */,
+				F4C147F7FD3875D6FA0C46228C36AB3F /* Unirest-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Unirest";
+			sourceTree = "<group>";
+		};
+		A5619E21B9562ECAB215EE555BA25439 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E353D6815EADE443C9FF99F038E985AA /* Unirest */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BEBD52C5EC2CE4D23592D602DEA69E1C /* Pods-MyPantry(version_1.0)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F213891B2089D6803A00370D58FA0F57 /* Pods-MyPantry(version_1.0)Tests-acknowledgements.markdown */,
+				7CB65A7512CFC291B14D6FAD5691211F /* Pods-MyPantry(version_1.0)Tests-acknowledgements.plist */,
+				BB2C2739CE69EBE95895FFF280F6A260 /* Pods-MyPantry(version_1.0)Tests-dummy.m */,
+				01D6063D34298606AD34DD8526C653D2 /* Pods-MyPantry(version_1.0)Tests.debug.xcconfig */,
+				AC719A5E1CAD4AA60B75237E09BDCC42 /* Pods-MyPantry(version_1.0)Tests.release.xcconfig */,
+			);
+			name = "Pods-MyPantry(version_1.0)Tests";
+			path = "Target Support Files/Pods-MyPantry(version_1.0)Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				A5619E21B9562ECAB215EE555BA25439 /* Pods */,
+				5B17F28F6B6E84853830CD8E412A86F6 /* Products */,
+				FE0B2310FA0F5B9641ADEE59E6E4E9D4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E353D6815EADE443C9FF99F038E985AA /* Unirest */ = {
+			isa = PBXGroup;
+			children = (
+				BE3403F047270DB0B07FB4871ADD9832 /* Base64.h */,
+				C895FEBF10E7266513A246F41E485665 /* Base64.m */,
+				1402FE05C2B1620C23DB7C1432DEA15F /* UNIBaseRequest.h */,
+				AE4932DE2D1C320BFB293C44ADF6D31C /* UNIBaseRequest.m */,
+				1D2D679D0CEAAA4BF17F398CCC1D5907 /* UNIBodyRequest.h */,
+				E04855668ED67CFEA61A1D8A423E0801 /* UNIBodyRequest.m */,
+				5239D7600AA44150F017EBE8F99B37E7 /* UNIHTTPBinaryResponse.h */,
+				5B83EF1A1635D6F6CF109A2012FABD6D /* UNIHTTPBinaryResponse.m */,
+				B6C9380CE76E06957C40C5D54518E5F6 /* UNIHTTPClientHelper.h */,
+				5CEF0BA3F25B6D4DDB1E867E1AB57A68 /* UNIHTTPClientHelper.m */,
+				E62AABF25C58BC1406F2C645892DF8A0 /* UNIHTTPJsonResponse.h */,
+				8E40CF4345F069C4E6D38435D41FC5D7 /* UNIHTTPJsonResponse.m */,
+				C7AC074D880C374487B29D1A3EACE6AC /* UNIHTTPRequest.h */,
+				AEDC3F789489A79AC74F43FBA8427E10 /* UNIHTTPRequest.m */,
+				AC86D757A3523EC26BCA22A0E07F7A3F /* UNIHTTPRequestWithBody.h */,
+				EADEFEDD0F63E04C3FA9C9398FFE096B /* UNIHTTPRequestWithBody.m */,
+				58050283C6E7A39E3A8D98539CEC6689 /* UNIHTTPResponse.h */,
+				BE97EF57A68A54AA6EE3C39E527C3F09 /* UNIHTTPResponse.m */,
+				C4FAFD7B903466375B81E811B60AB8FA /* UNIHTTPStringResponse.h */,
+				8C9CECBC85AA07AD2F3C6137BDF207EE /* UNIHTTPStringResponse.m */,
+				C10A671FA80F52391D3711ACF7C2C546 /* UNIJsonNode.h */,
+				D9024A2A864804DAD47FED2F551B8170 /* UNIJsonNode.m */,
+				0C5B2CFA1C54C67D3BBDD683FA6771BE /* UNIRest.h */,
+				1EC47074CF11711517EE33E7FEF70FFD /* UNIRest.m */,
+				77626892055C2EE28A855D72C3BB23DC /* UNISimpleRequest.h */,
+				449187A180F3E7A630ED6BBA5003FA75 /* UNISimpleRequest.m */,
+				D1F8574967F25058F36E33C52012AD7D /* UNIUrlConnection.h */,
+				BF3DD8EBE4909EA80E890EBDAC583B5F /* UNIUrlConnection.m */,
+				64963068BAC232E6F33D7742DA822786 /* Support Files */,
+			);
+			path = Unirest;
+			sourceTree = "<group>";
+		};
+		FB07D57A37103C2995A20BE6B8997EF7 /* Pods-MyPantry(version_1.0)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				95E6418CAF6945D7494DB7B0D769A795 /* Pods-MyPantry(version_1.0)UITests-acknowledgements.markdown */,
+				1428DE5B64D2B50F86AF0B162099F55A /* Pods-MyPantry(version_1.0)UITests-acknowledgements.plist */,
+				FB822A068BA2D88D37971EE6038883BC /* Pods-MyPantry(version_1.0)UITests-dummy.m */,
+				434141D342B861DC1BC6FA814B708458 /* Pods-MyPantry(version_1.0)UITests.debug.xcconfig */,
+				72D79EC48E5246C8D3087E33EE7BD995 /* Pods-MyPantry(version_1.0)UITests.release.xcconfig */,
+			);
+			name = "Pods-MyPantry(version_1.0)UITests";
+			path = "Target Support Files/Pods-MyPantry(version_1.0)UITests";
+			sourceTree = "<group>";
+		};
+		FE0B2310FA0F5B9641ADEE59E6E4E9D4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51360643747859A88BA3074E20D483A6 /* Pods-MyPantry(version_1.0) */,
+				BEBD52C5EC2CE4D23592D602DEA69E1C /* Pods-MyPantry(version_1.0)Tests */,
+				FB07D57A37103C2995A20BE6B8997EF7 /* Pods-MyPantry(version_1.0)UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		54BBB33415496CE70F608D6571F940B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3450A75EF5F35FBCDD296F4C9E1BCD50 /* Base64.h in Headers */,
+				64F28C550A69731E32D421E8EFD24DE9 /* UNIBaseRequest.h in Headers */,
+				6CFE1847ADAA42F862D4F2E9AE3A8BFB /* UNIBodyRequest.h in Headers */,
+				1C6BE6E542A285F73365A94FACAECA02 /* UNIHTTPBinaryResponse.h in Headers */,
+				42F8DF119561EDBE1BC6F2D26AEB5D1B /* UNIHTTPClientHelper.h in Headers */,
+				F0B45D136536E098513E82692321BB93 /* UNIHTTPJsonResponse.h in Headers */,
+				6DFFA5FCBE4933F3DECF7CBF33DF2B99 /* UNIHTTPRequest.h in Headers */,
+				D2B086875098E91DCD3940D72E416453 /* UNIHTTPRequestWithBody.h in Headers */,
+				E937D5FB0098853266AD72295C881EA8 /* UNIHTTPResponse.h in Headers */,
+				3DF11FEC25096D8535D1142BC4E9C2E6 /* UNIHTTPStringResponse.h in Headers */,
+				9BA1662927FF2A2EEECE44C99738B6BE /* UNIJsonNode.h in Headers */,
+				C0BA1198B3A723DAB70A2A269CF6D642 /* UNIRest.h in Headers */,
+				13D5C0126EB2224CC946D5E0373CB7CB /* UNISimpleRequest.h in Headers */,
+				D361C97929279A6222E7B00CB9A37382 /* UNIUrlConnection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7A7985A72FD2618503684E60F1F251 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C8106294AE39DE9495F6AAC16AB315 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37D0E67DA69281566339B14504D332B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		199FA053BFF55E866E68B835FA188117 /* Pods-MyPantry(version_1.0) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC7FE4F0680C0929A22753DAB25CFD33 /* Build configuration list for PBXNativeTarget "Pods-MyPantry(version_1.0)" */;
+			buildPhases = (
+				D37D0E67DA69281566339B14504D332B /* Headers */,
+				EFE6F152B6FF05794308463878C29222 /* Sources */,
+				5A522AD4F2B12AEC66E2A61DCE766F40 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A83EDE7C4565F7C9F596B779AC525924 /* PBXTargetDependency */,
+			);
+			name = "Pods-MyPantry(version_1.0)";
+			productName = "Pods-MyPantry(version_1.0)";
+			productReference = FF6AB4865019CA8D45451D33B3683A58 /* libPods-MyPantry(version_1.0).a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1C45CD81E1F32EFCBC5C414595F911A3 /* Pods-MyPantry(version_1.0)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70344608E15E543604BEF2C8005C29BA /* Build configuration list for PBXNativeTarget "Pods-MyPantry(version_1.0)UITests" */;
+			buildPhases = (
+				B5C8106294AE39DE9495F6AAC16AB315 /* Headers */,
+				99EE88D0D44BABEB151BA8F0A66A1C0D /* Sources */,
+				26CEE7CE181F0599962B78CE9BE533A1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02761A3768CE9182B71057252E2E8B90 /* PBXTargetDependency */,
+			);
+			name = "Pods-MyPantry(version_1.0)UITests";
+			productName = "Pods-MyPantry(version_1.0)UITests";
+			productReference = DAD5D7DB2152C2FB0FD1F0D76BA192BE /* libPods-MyPantry(version_1.0)UITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		91F8B621780C36AE47916CA0112F90CB /* Unirest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2093F319B5C68F885615FC807F291710 /* Build configuration list for PBXNativeTarget "Unirest" */;
+			buildPhases = (
+				54BBB33415496CE70F608D6571F940B8 /* Headers */,
+				C93F41595037B0A7670D9E86B96A8565 /* Sources */,
+				BAE699986678CF8758D121D480B7795E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Unirest;
+			productName = Unirest;
+			productReference = BA6FCE932336BCC5BE210E914FA4EDF4 /* libUnirest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C3AA8E62DF745B053AF1FE9FC9AF6142 /* Pods-MyPantry(version_1.0)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20C68D35861990524619191F3DEC3C4 /* Build configuration list for PBXNativeTarget "Pods-MyPantry(version_1.0)Tests" */;
+			buildPhases = (
+				8C7A7985A72FD2618503684E60F1F251 /* Headers */,
+				C9D4D57B7F0A787A93A4B2A0276CA7E4 /* Sources */,
+				B5E87B44B0CFA9430DC328FA70A2CA61 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BA7A150A3EB9A95BC67B252EC2FAA25 /* PBXTargetDependency */,
+			);
+			name = "Pods-MyPantry(version_1.0)Tests";
+			productName = "Pods-MyPantry(version_1.0)Tests";
+			productReference = 87A19A9F8D9311EC5A078690C94A2CE6 /* libPods-MyPantry(version_1.0)Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5B17F28F6B6E84853830CD8E412A86F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				199FA053BFF55E866E68B835FA188117 /* Pods-MyPantry(version_1.0) */,
+				C3AA8E62DF745B053AF1FE9FC9AF6142 /* Pods-MyPantry(version_1.0)Tests */,
+				1C45CD81E1F32EFCBC5C414595F911A3 /* Pods-MyPantry(version_1.0)UITests */,
+				91F8B621780C36AE47916CA0112F90CB /* Unirest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99EE88D0D44BABEB151BA8F0A66A1C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61465BC01835681D14775081C300F1E /* Pods-MyPantry(version_1.0)UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C93F41595037B0A7670D9E86B96A8565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB67B23738AAF5D860F1D84C6859EA4 /* Base64.m in Sources */,
+				C4B7DE34143B5D326E9C12C57833A44F /* UNIBaseRequest.m in Sources */,
+				C4A82CA3FAAF7D206BD699E2A4000F64 /* UNIBodyRequest.m in Sources */,
+				8CE791F22801D5805303102E11BC852E /* UNIHTTPBinaryResponse.m in Sources */,
+				D82BA170D3856DADFF16511136AE825B /* UNIHTTPClientHelper.m in Sources */,
+				B1B123822EB4CD7E00034A0B63D2666F /* UNIHTTPJsonResponse.m in Sources */,
+				C6B64D63D07B9285F69419E772EFFCD3 /* UNIHTTPRequest.m in Sources */,
+				FCB6E61798093C6A2D896115C46467A7 /* UNIHTTPRequestWithBody.m in Sources */,
+				05D85B6FDD836E6F44DAD76C77B818AD /* UNIHTTPResponse.m in Sources */,
+				562E3B749D73396EDEAE95251DF0D057 /* UNIHTTPStringResponse.m in Sources */,
+				C300BCE6998115E58A42D5EC986DFA0B /* UNIJsonNode.m in Sources */,
+				775D8C750CC025DD9BEDCE48760E8A01 /* Unirest-dummy.m in Sources */,
+				5A0ABC9498EA93D7A451B22171EC8276 /* UNIRest.m in Sources */,
+				0B1CD8523E75BB098B3A0B19879CE0C6 /* UNISimpleRequest.m in Sources */,
+				08A41EF9052E2CF8990F4A7D911DEB66 /* UNIUrlConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9D4D57B7F0A787A93A4B2A0276CA7E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9B1D5148F38B278CEBDAD8DD0823DF /* Pods-MyPantry(version_1.0)Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE6F152B6FF05794308463878C29222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0263735FE71E433D59308FBD5800157B /* Pods-MyPantry(version_1.0)-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02761A3768CE9182B71057252E2E8B90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MyPantry(version_1.0)";
+			target = 199FA053BFF55E866E68B835FA188117 /* Pods-MyPantry(version_1.0) */;
+			targetProxy = 51F0846051766AAC23BDD24E460EE329 /* PBXContainerItemProxy */;
+		};
+		6BA7A150A3EB9A95BC67B252EC2FAA25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MyPantry(version_1.0)";
+			target = 199FA053BFF55E866E68B835FA188117 /* Pods-MyPantry(version_1.0) */;
+			targetProxy = B79B722569ECC868669A64288E6C6173 /* PBXContainerItemProxy */;
+		};
+		A83EDE7C4565F7C9F596B779AC525924 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Unirest;
+			target = 91F8B621780C36AE47916CA0112F90CB /* Unirest */;
+			targetProxy = 21719254111914CD69A5FB51796E8952 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A427D34D4AFC39784BDDE44254DEE34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		29EC42A77F9BC8A839E73B3D08A6C251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC719A5E1CAD4AA60B75237E09BDCC42 /* Pods-MyPantry(version_1.0)Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		753980F4A649C6E201CB56D4F23A817D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7001823CC9EF98B96A2BFDA0C06EE006 /* Pods-MyPantry(version_1.0).release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E65C299B42617E96724E2B880DCEB07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6DE4EA2CBFC0ED06995941680C3ECA /* Pods-MyPantry(version_1.0).debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF831C0257825C70741AB1249B67BD0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434141D342B861DC1BC6FA814B708458 /* Pods-MyPantry(version_1.0)UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0F3A9E67DF66704E2EAE90EB08303B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01D6063D34298606AD34DD8526C653D2 /* Pods-MyPantry(version_1.0)Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D17CF6BF1D59C675700C268F7F9D640D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C30B60F145E165A7DD9C30B3CDC33827 /* Unirest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Unirest/Unirest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Unirest;
+				PRODUCT_NAME = Unirest;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAD9F54D59198F3C6A19C87D12382EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C30B60F145E165A7DD9C30B3CDC33827 /* Unirest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Unirest/Unirest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Unirest;
+				PRODUCT_NAME = Unirest;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E318EC44D8677A23EAECDEB265AFB392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F8C506DD342D9AD55B487951805C1B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D79EC48E5246C8D3087E33EE7BD995 /* Pods-MyPantry(version_1.0)UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2093F319B5C68F885615FC807F291710 /* Build configuration list for PBXNativeTarget "Unirest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD9F54D59198F3C6A19C87D12382EFC /* Debug */,
+				D17CF6BF1D59C675700C268F7F9D640D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A427D34D4AFC39784BDDE44254DEE34 /* Debug */,
+				E318EC44D8677A23EAECDEB265AFB392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70344608E15E543604BEF2C8005C29BA /* Build configuration list for PBXNativeTarget "Pods-MyPantry(version_1.0)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF831C0257825C70741AB1249B67BD0A /* Debug */,
+				F8C506DD342D9AD55B487951805C1B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC7FE4F0680C0929A22753DAB25CFD33 /* Build configuration list for PBXNativeTarget "Pods-MyPantry(version_1.0)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E65C299B42617E96724E2B880DCEB07 /* Debug */,
+				753980F4A649C6E201CB56D4F23A817D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E20C68D35861990524619191F3DEC3C4 /* Build configuration list for PBXNativeTarget "Pods-MyPantry(version_1.0)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F3A9E67DF66704E2EAE90EB08303B3 /* Debug */,
+				29EC42A77F9BC8A839E73B3D08A6C251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

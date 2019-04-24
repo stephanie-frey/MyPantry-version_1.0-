@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+NSArray *recipes;
+NSArray *ID;
 
 @interface ViewController : UIViewController
 

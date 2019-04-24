@@ -1,0 +1,16 @@
+PODS:
+  - Unirest (1.1.4)
+
+DEPENDENCIES:
+  - Unirest (~> 1.1.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Unirest
+
+SPEC CHECKSUMS:
+  Unirest: 5e4d93eaf32463bf619a4ecd3bbc8c32acf21eac
+
+PODFILE CHECKSUM: d9bc552271427122139690819f87b58c25faa84a
+
+COCOAPODS: 1.6.0
