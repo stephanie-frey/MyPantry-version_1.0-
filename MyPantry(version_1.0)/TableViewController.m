@@ -41,7 +41,7 @@
     
     NSString *str = @"Used Ingredients: ";
     str = [str stringByAppendingPathComponent:used[indexPath.row]];
-    str = [str stringByAppendingString:@"\tMissed Ingredients: "];
+    str = [str stringByAppendingString:@"     Missed Ingredients: "];
     str = [str stringByAppendingPathComponent:missed[indexPath.row]];
     str = [str stringByReplacingOccurrencesOfString:@"/" withString:@""];
     cell.detailTextLabel.text = str;

@@ -14,27 +14,12 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleAspectFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter foods" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xqm-R2-Vhx">
-                                <rect key="frame" x="140" y="145" width="97" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Yk-Js-yLU">
-                                <rect key="frame" x="141" y="196" width="94" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Add to pantry"/>
-                                <connections>
-                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rzY-BM-644"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qne-mC-HMW">
-                                <rect key="frame" x="54" y="254" width="269" height="273"/>
+                            <label opaque="NO" clipsSubviews="YES" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredient List:" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qne-mC-HMW">
+                                <rect key="frame" x="57" y="533" width="269" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" adjustable="YES"/>
@@ -44,27 +29,53 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ai-pj-Loe">
-                                <rect key="frame" x="239" y="572" width="87" height="30"/>
+                                <rect key="frame" x="154" y="665" width="83" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Get Recipies"/>
+                                <state key="normal" title="Get Recipes"/>
                                 <connections>
                                     <segue destination="yvi-2o-ghO" kind="show" id="IQf-pX-i0N"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter in the foods you have on hand: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rCX-Wu-6nD">
-                                <rect key="frame" x="41" y="101" width="294" height="36"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Yk-Js-yLU">
+                                <rect key="frame" x="16" y="481" width="147" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <state key="normal" title="Add to Ingredient List"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rzY-BM-644"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Oh-Bi-hfW">
+                                <rect key="frame" x="16" y="349" width="137" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter ingredients you have on hand (one per line) : " lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rCX-Wu-6nD">
+                                <rect key="frame" x="16" y="304" width="359" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Pantry" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T4e-4Z-dyi">
+                                <rect key="frame" x="114" y="114" width="146" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="foodpic.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Oho-he-ZOM">
+                                <rect key="frame" x="104" y="170" width="165" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="KBg-HT-yD9"/>
                     <connections>
-                        <outlet property="textEntered" destination="xqm-R2-Vhx" id="jnX-6s-hPG"/>
+                        <outlet property="ingredientsEntered" destination="8Oh-Bi-hfW" id="ugK-db-LkB"/>
                         <outlet property="textOutput" destination="qne-mC-HMW" id="Jso-6P-dPs"/>
                     </connections>
                 </viewController>
@@ -189,5 +200,6 @@
     </scenes>
     <resources>
         <image name="food_default.png" width="800" height="800"/>
+        <image name="foodpic.jpg" width="331" height="250"/>
     </resources>
 </document>

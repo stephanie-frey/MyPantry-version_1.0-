@@ -35,10 +35,11 @@ UNIUrlConnection *asyncConnection;
 
 @interface ViewController ()
 
-@property (weak, nonatomic) IBOutlet UITextField *textEntered;
-
 
 @property (weak, nonatomic) IBOutlet UILabel *textOutput;
+
+@property (weak, nonatomic) IBOutlet UITextView *ingredientsEntered;
+
 @end
 
 @implementation ViewController
@@ -51,23 +52,37 @@ UNIUrlConnection *asyncConnection;
     }
 
 - (IBAction)buttonPressed:(UIButton *)sender {
-    ingredients = _textEntered.text;
-    ingredients2 = [ingredients stringByReplacingOccurrencesOfString:@", " withString:@"\n"];
+    //ingredients = _textEntered.text;
+    //ingredients2 = [ingredients stringByReplacingOccurrencesOfString:@", " withString:@"\n"];
     
-    [ViewController start];
+   
     
+    NSString *enteredText = _ingredientsEntered.text;
+    enteredText = [enteredText stringByReplacingOccurrencesOfString:@"\n" withString:@", "];
     
-    _textOutput.text = ingredients2;
-    _textEntered.text = @"";
+    ingredients = _ingredientsEntered.text;
+    ingredients = [ingredients lowercaseString];
+    ingredients = [ingredients stringByReplacingOccurrencesOfString:@"\n" withString:@"%2C"];
+    
+    //ingredients = [ingredients stringByReplacingOccurrencesOfString:@"\n" withString:@", "];
+    
+    //ingredients = enteredText;
+    
+    NSString *caption = @"Ingredient List: \n";
+    
+    NSLog(@"%@",enteredText);
+    _textOutput.text = [caption stringByAppendingString:enteredText];
+    
+     [ViewController start];
+    
     };
 
 + (void)start{
 
     headers = @{@"X-RapidAPI-Key": @"efbde06e0cmsha6e8ba1faaf4994p18315cjsn2533676bc3b9"};
 
-
-    ingredients = [ingredients stringByReplacingOccurrencesOfString:@"," withString:@"%2C"];
-    ingredients = [ingredients stringByReplacingOccurrencesOfString:@" " withString:@""];
+    
+    //ingredients = [ingredients stringByReplacingOccurrencesOfString:@" " withString:@""];
     url = [url stringByAppendingString:ingredients];
 
     asyncConnection = [[UNIRest get:^(UNISimpleRequest *request) {
@@ -166,6 +181,7 @@ UNIUrlConnection *asyncConnection;
 
             NSMutableArray *json2 = [NSJSONSerialization JSONObjectWithData:rawBody options:kNilOptions error:&error];
 
+            NSLog (@"%@",json2);
 
             value = [json2 valueForKey:@"instructions"];
             value2 = [json2 valueForKey:@"sourceUrl"];
@@ -196,14 +212,14 @@ UNIUrlConnection *asyncConnection;
                 
                 if (j == (allIngredients.count - 1))
                 {
-                    fullString = [fullString stringByAppendingString:@"*"];
+                    fullString = [fullString stringByAppendingString:@"!"];
                 }
                 
                 result4 = [result4 stringByAppendingString:fullString];
             }
             
             //NSLog(@"%@",result4);
-            allIngredients2 = [result4 componentsSeparatedByString:@"*"];
+            allIngredients2 = [result4 componentsSeparatedByString:@"!"];
 
             NSLog(@"%@",allIngredients2);
              }];

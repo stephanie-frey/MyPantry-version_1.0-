@@ -21,6 +21,7 @@
 		F73B58C5225E101300D147BE /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73B58C4225E101300D147BE /* TableViewController.m */; };
 		F73B58C8225E102600D147BE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73B58C7225E102600D147BE /* SecondViewController.m */; };
 		F77A9496227FA72E003436EC /* food_default.png in Resources */ = {isa = PBXBuildFile; fileRef = F77A9495227FA72E003436EC /* food_default.png */; };
+		F77A9498227FD811003436EC /* foodpic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F77A9497227FD811003436EC /* foodpic.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		F73B58C6225E102600D147BE /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		F73B58C7225E102600D147BE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		F77A9495227FA72E003436EC /* food_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food_default.png; sourceTree = SOURCE_ROOT; };
+		F77A9497227FD811003436EC /* foodpic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = foodpic.jpg; path = ../../../foodpic.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				F73B58C4225E101300D147BE /* TableViewController.m */,
 				F73B58C6225E102600D147BE /* SecondViewController.h */,
 				F73B58C7225E102600D147BE /* SecondViewController.m */,
+				F77A9497227FD811003436EC /* foodpic.jpg */,
 				F73B5749221C7E1800D147BE /* Assets.xcassets */,
 				F73B574B221C7E1800D147BE /* LaunchScreen.storyboard */,
 				F73B574E221C7E1800D147BE /* Info.plist */,
@@ -294,6 +297,7 @@
 				F73B574D221C7E1800D147BE /* LaunchScreen.storyboard in Resources */,
 				F73B574A221C7E1800D147BE /* Assets.xcassets in Resources */,
 				F73B5748221C7E1600D147BE /* Main.storyboard in Resources */,
+				F77A9498227FD811003436EC /* foodpic.jpg in Resources */,
 				F77A9496227FA72E003436EC /* food_default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
