@@ -20,6 +20,7 @@
 		F73B5765221C7E1800D147BE /* MyPantry_version_1_0_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F73B5764221C7E1800D147BE /* MyPantry_version_1_0_UITests.m */; };
 		F73B58C5225E101300D147BE /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73B58C4225E101300D147BE /* TableViewController.m */; };
 		F73B58C8225E102600D147BE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73B58C7225E102600D147BE /* SecondViewController.m */; };
+		F77A9496227FA72E003436EC /* food_default.png in Resources */ = {isa = PBXBuildFile; fileRef = F77A9495227FA72E003436EC /* food_default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		F73B58C4225E101300D147BE /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		F73B58C6225E102600D147BE /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		F73B58C7225E102600D147BE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F77A9495227FA72E003436EC /* food_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food_default.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 		F73B573F221C7E1600D147BE /* MyPantry(version_1.0) */ = {
 			isa = PBXGroup;
 			children = (
+				F77A9495227FA72E003436EC /* food_default.png */,
 				F73B5740221C7E1600D147BE /* AppDelegate.h */,
 				F73B5741221C7E1600D147BE /* AppDelegate.m */,
 				F73B5743221C7E1600D147BE /* ViewController.h */,
@@ -291,6 +294,7 @@
 				F73B574D221C7E1800D147BE /* LaunchScreen.storyboard in Resources */,
 				F73B574A221C7E1800D147BE /* Assets.xcassets in Resources */,
 				F73B5748221C7E1600D147BE /* Main.storyboard in Resources */,
+				F77A9496227FA72E003436EC /* food_default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

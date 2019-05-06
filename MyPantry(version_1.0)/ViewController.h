@@ -9,9 +9,19 @@
 #import <UIKit/UIKit.h>
 NSArray *recipes;
 NSArray *ID;
+NSArray *images;
+NSArray *allIngredients;
+NSArray *allIngredients2;
+
+NSArray *missed;
+NSArray *used;
+
+NSMutableArray *instructions;
+Boolean instructionsProvided;
 
 @interface ViewController : UIViewController
 
++ (void) start2;
 
 @end
 

@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface SecondViewController : UIViewController
-
+//+ (void) start;
 @end
 
 NS_ASSUME_NONNULL_END

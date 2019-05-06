@@ -9,8 +9,9 @@
 #import "TableViewController.h"
 #import  <UNIRest.h>
 
-@interface TableViewController ()
 
+
+@interface TableViewController ()
 
 @end
 
@@ -18,6 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [ViewController start2];
 }
 
 #pragma mark - Table view data source
@@ -36,15 +38,26 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     
     cell.textLabel.text = recipes[indexPath.row];
+    
+    NSString *str = @"Used Ingredients: ";
+    str = [str stringByAppendingPathComponent:used[indexPath.row]];
+    str = [str stringByAppendingString:@"\tMissed Ingredients: "];
+    str = [str stringByAppendingPathComponent:missed[indexPath.row]];
+    str = [str stringByReplacingOccurrencesOfString:@"/" withString:@""];
+    cell.detailTextLabel.text = str;
+    
+    cell.imageView.image = [UIImage imageWithData: [NSData dataWithContentsOfURL: [NSURL URLWithString: images[indexPath.row]]]];
+    
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     myIndex = indexPath.row;
     
+    //[ViewController start2];
     [self performSegueWithIdentifier:@"segue" sender:self];
+    
 }
-
-
+    
 
 @end

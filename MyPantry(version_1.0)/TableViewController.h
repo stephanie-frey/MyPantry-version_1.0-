@@ -11,7 +11,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 long myIndex;
-
+//NSArray *instructions;
+//NSString *string = @"Instructions: ";
 
 @interface TableViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource>
 
